@@ -3,7 +3,7 @@ public abstract class User {
     protected String name; // Esm el user
     protected String email; // Email bta3 el user
     protected String role; // Role bta3 el user (Admin, Pharmacist, etc.)
-
+    
     public User(String userId, String name, String email, String role) {
         this.userId = userId; // 7ot el ID
         this.name = name; // 7ot el esm
